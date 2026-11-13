@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="summoncount"
+version="1.0.0"
+displayName="Summon Count"
+authors="You"
+description='''Adds a count to /summon and the boss Gentoshka'''
+
+[[dependencies.summoncount]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.summoncount]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.22,)"
+    ordering="NONE"
+    side="BOTH"
